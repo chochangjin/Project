@@ -1,0 +1,106 @@
+<!doctype html>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>시간표</title>
+	<style>
+		body { background-image: url(7.jpg); width: 1000px ; height: 500px ; background-size: 10%}
+	    table { position:absolute; left:20px; top:100px;
+	    	text-align: center; border-radius: 20px 20px 20px 20px ; background-color: white ;}
+		th { width: 75px; height: 30px; font-size: 15px;
+		 border-radius: 10px 10px 10px 10px ;
+		 }
+		td { width: 115px; height: 45px; font-size: 13px; border-radius: 10px 10px 10px 10px ; }
+		h1 {  position: absolute; background-color: white; left:300px; }
+		.경공 { background-color: #f9eaae}
+		.공수 { background-color: #afa475 }
+		.산통 { background-color: #9e8e4b }
+		.인기응 { background-color: #e0dd84}
+		.비프 { background-color: #a3a17c }
+		.기제실 { background-color: #bec99d }
+		#공윤 { background-color: #d6e8a2 }
+		#기제 { background-color: #b5e098 } 
+		.교시 { width:200px; }
+		#back { position: absolute; left: 870px; top: 80px;}
+		#backtwo { font-size: 12px; position: absolute; left: 870px; top: 140px; }
+	</style>
+</head>
+<body>
+	<h1>공강없는 불쌍한 시간표</h1><br>
+	<table>
+	<tr><th>  </th>
+		<th>월요일</th>
+		<th>화요일</th>
+		<th>수요일</th>
+		<th>목요일</th>
+		<th>금요일</th>
+	</tr>
+	<tr>
+		<th class="교시" >1교시<br>9:00 ~ 10:00</th>
+		<td class="경공">경제성공학<br>401-320</td>
+		<td></td>
+		<td class="공수">공학수학<br>401-216</td>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr>
+		<th class="교시">2교시<br>10:00 ~ 11:00</th>
+		<td rowspan="2" class="공수">공학수학<br>401-216</td>
+		<td></td>
+		<td rowspan="2" class="경공">경제성공학<br>401-320</td>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr>
+		<th class="교시">3교시<br>11:00 ~ 12:00</th>
+		<td rowspan="2" class="비프">비주얼프로그래밍<br>401-315</td>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr>
+		<th class="교시">4교시<br>12:00 ~ 13:00</th>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td class="비프">비주얼 프로그래밍<br>401-315</td>
+	</tr>
+	<tr>
+		<th class="교시">5교시<br>13:00 ~ 14:00</th>
+		<td></td>
+		<td class="인기응">인터넷기술응용1<br>401-315</td>
+		<td></td>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr>
+		<th class="교시">6교시<br>14:00 ~ 15:00</th>
+		<td rowspan="2" class="산통">산업통계<br>401-320</td>
+		<td rowspan="2" id="기제">기계제도<br>401-320</td>
+		<td></td>
+		<td rowspan="2" class="인기응">인터넷기술응용1<br>401-315</td>
+		<td></td>
+	</tr>
+	<tr>
+		<th class="교시">7교시<br>15:00 ~ 16:00</th>
+		<td class="산통">산업통계<br>401-320</td>
+		<td></td>
+	</tr>
+	<tr>
+		<th class="교시">8교시<br>16:00 ~ 17:00</th>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td rowspan="2" id="공윤">공학윤리<br>024-160</td>
+		<td rowspan="2" class="기제실">기계제도 실습<br>401-315</td>
+	</tr>
+	<tr>
+		<th class="교시">9교시<br>17:00 ~ 18:00</th>
+		<td></td>
+		<td></td>
+		<td></td>
+	</tr>
+</table>
+	<a id="back" href="index.html"><img width="100" src="6.jpg"/></a>
+	<h2 id="backtwo">홈페이지로~</h2>
+</body>
+</html>
